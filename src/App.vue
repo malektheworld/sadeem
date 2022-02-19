@@ -1,26 +1,67 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<banner-section>
+</banner-section>
+<services-section> </services-section>
+<whyus-section> </whyus-section>
+<ouregoals-section> </ouregoals-section>
+<ourportfolio-section> </ourportfolio-section>
+<ourclient-section> </ourclient-section>
+
+<footer-section>  </footer-section>
+
+ 
 </template>
 
+
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BannerSection from './components/bannerSlider/BannerSection.vue';
+import ServicesSection from './components/Services-Section/ServicesSection.vue';
+import WhyusSection from './components/Whu-Us/WhyusSection.vue' ;
+import OuregoalsSection from './components/our-goals/OurgoalsSection.vue';
+import OurportfolioSection from './components/Our-portfolio/OurportfolioSection.vue';
+import OurclientSection from './components/Our-Clients/OurclientSection.vue';
+import FooterSection from './components/footer/FooterSection.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
+     
+     BannerSection,
+     ServicesSection,
+     WhyusSection,
+     OuregoalsSection,
+     OurportfolioSection,
+     OurclientSection,
+    FooterSection,
+
+
+
+
+
+
+
+   },
+  
+
+
+
+  
+  data() {
+    return {
+      
+    }
+  },
+  methods: {
+    
+  },
+  
 }
 </script>
 
+
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 </style>
